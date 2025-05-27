@@ -20,5 +20,6 @@ public class AutoMapping : Profile
     private void EntityToResponse()
     {
         CreateMap<Expense, ResponseRegisterdExpenseJson>();
+        CreateMap<Expense, ResponseShortExpenseJson>();
     }
 }
